@@ -91,7 +91,7 @@ const projects = [
     ],
     tech: ["Unreal Engine", "C++", "Blueprints", "Real-time Systems"],
     media: {
-      type: "video",
+      type: "hostedVideo",
       src: "/videos/SecretLocationInno.mp4",
       title: "XR Prototype",
     },
@@ -530,6 +530,17 @@ function MediaPanel({ media }) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />
+      </div>
+    );
+  }
+
+  if (media.type === "hostedVideo") {
+    return (
+      <div className="aspect-video w-full bg-neutral-950">
+        <video className="h-full w-full" controls preload="metadata">
+          <source src={media.src} type="video/mp4" />
+          Sorry, your browser doesn’t support embedded videos.
+        </video>
       </div>
     );
   }
