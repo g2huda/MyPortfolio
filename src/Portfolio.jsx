@@ -177,7 +177,7 @@ export default function Portfolio() {
       <header className="relative">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-6">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-2xl bg-white/10 ring-1 ring-white/15" />
+            <img src="/src/assets/images/hoda.jpg" alt="Hoda Fouda" className="h-9 w-9 rounded-2xl object-cover ring-1 ring-white/15" />
             <div>
               <div className="text-sm font-semibold tracking-wide">Hoda Fouda</div>
               <div className="text-xs text-neutral-300">Game Developer</div>
@@ -234,7 +234,8 @@ export default function Portfolio() {
               {[
                 "Unity (C#)",
                 "Gameplay Systems",
-                "Mobile Games",
+                "UI Systems",
+                "Mobile/XR Games",
                 "Unreal (C++ / Blueprints)",
                 "CI/CD",
                 "3D Math",
