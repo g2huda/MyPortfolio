@@ -177,7 +177,7 @@ export default function Portfolio() {
       <header className="relative">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-6">
           <div className="flex items-center gap-3">
-            <img src="/images/hoda.jpg" alt="Hoda Fouda" className="h-12 w-12 rounded-2xl object-cover ring-1 ring-white/15" />
+            <img src="/images/hoda.jpg" alt="Hoda Fouda" className="h-22 w-16 rounded-2xl object-cover ring-1 ring-white/15" />
             <div>
               <div className="text-sm font-semibold tracking-wide">Hoda Fouda</div>
               <div className="text-xs text-neutral-300">Game Developer</div>
