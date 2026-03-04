@@ -180,7 +180,7 @@ export default function Portfolio() {
             <div className="h-9 w-9 rounded-2xl bg-white/10 ring-1 ring-white/15" />
             <div>
               <div className="text-sm font-semibold tracking-wide">Hoda Fouda</div>
-              <div className="text-xs text-neutral-300">Senior Unity & Gameplay Programmer</div>
+              <div className="text-xs text-neutral-300">Game Developer</div>
             </div>
           </div>
 
@@ -420,8 +420,8 @@ export default function Portfolio() {
               <ContactChip
                 icon={Mail}
                 label="Email"
-                value="your.email@example.com"
-                href="mailto:your.email@example.com"
+                value="huda.fouda@gmail.com"
+                href="mailto:huda.fouda@gmail.com"
               />
               <ContactChip
                 icon={Linkedin}
@@ -429,18 +429,11 @@ export default function Portfolio() {
                 value="linkedin.com/in/hoda-fouda-9b843111a"
                 href="https://linkedin.com/in/hoda-fouda-9b843111a"
               />
-              <ContactChip
-                icon={Github}
-                label="GitHub (optional)"
-                value="github.com/your-handle"
-                href="https://github.com/your-handle"
-              />
               <div className="rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
                 <div className="text-xs font-semibold uppercase tracking-wide text-neutral-300">Availability</div>
-                <div className="mt-1 text-sm text-neutral-200">Open to Unity, Gameplay, Unreal, and Mobile roles.</div>
+                <div className="mt-1 text-sm text-neutral-200">Open to Unity, Unreal, Gameplay, UI, and Mobile roles.</div>
               </div>
             </div>
-
             <div className="mt-6 text-xs text-neutral-400">
               Tip: replace the email and GitHub fields above, and optionally add a “Resume PDF” link.
             </div>
