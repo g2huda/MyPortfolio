@@ -39,7 +39,7 @@ const projects = [
     ],
     tech: ["Unity", "C#", "Animation Systems", "Narrative Tooling"],
     media: {
-      type: "vimeo",
+      type: "video",
       // Vimeo player embed URL is already provided by you
       src: "https://player.vimeo.com/video/830586957",
       title: "Weirdwood Manor Vol. 2 – Video",
@@ -65,7 +65,7 @@ const projects = [
     ],
     tech: ["Unity", "C#", "Mobile Optimization", "CI/CD"],
     media: {
-      type: "youtube",
+      type: "video",
       // Use embed form for clean iframes
       src: "https://www.youtube.com/embed/xnsjU508yt0",
       title: "PCH+ – Video",
@@ -79,7 +79,7 @@ const projects = [
     ],
   },
   {
-    title: "Waking Wonderland – Unreal Interactive Room",
+    title: "Unreal Interactive Room",
     subtitle: "Large-Scale Immersive Installation",
     blurb:
       "A real-time Unreal Engine interactive room integrating physical space, projection, and player interaction.",
@@ -91,9 +91,9 @@ const projects = [
     ],
     tech: ["Unreal Engine", "C++", "Blueprints", "Real-time Systems"],
     media: {
-      type: "link",
-      src: "http://secretlocation.com/production/waking-wonderland",
-      title: "Waking Wonderland – Project Page",
+      type: "video",
+      src: "/videos/SecretLocationInno.mp4",
+      title: "XR Prototype",
     },
     links: [
       {
@@ -520,7 +520,7 @@ function ProjectCard({ project, index }) {
 function MediaPanel({ media }) {
   if (!media) return null;
 
-  if (media.type === "youtube" || media.type === "vimeo") {
+  if (media.type === "video") {
     return (
       <div className="aspect-video w-full bg-neutral-950">
         <iframe
