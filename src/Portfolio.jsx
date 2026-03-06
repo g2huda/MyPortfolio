@@ -115,7 +115,7 @@ const projects = [
     ],
     tech: ["Interactive Systems", "Rapid Prototyping"],
     media: {
-      type: "youtube",
+      type: "video",
       src: "https://www.youtube.com/embed/_Zzz_Ulh43o",
       title: "VUSR – Video",
     },
@@ -435,9 +435,7 @@ export default function Portfolio() {
                 <div className="mt-1 text-sm text-neutral-200">Open to Unity, Unreal, Gameplay, UI, and Mobile roles.</div>
               </div>
             </div>
-            <div className="mt-6 text-xs text-neutral-400">
-              Tip: replace the email and GitHub fields above, and optionally add a “Resume PDF” link.
-            </div>
+            
           </motion.div>
         </section>
       </main>
