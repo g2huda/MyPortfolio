@@ -127,6 +127,63 @@ const projects = [
       },
     ],
   },
+  {
+    title: "Tandem",
+    subtitle: "Level Up – Student Games Showcase",
+    blurb:
+      "A game project created for the Level Up: Student Games Showcase where a multidisciplinary team collaborated to design and build a playable Unity game.",
+    contributions: [
+      "Created the game using Unity and C#",
+      "Designed and implemented the full UI system",
+      "Modeled, textured, and rigged the main character meshes",
+      "Created and programmed all character animations",
+      "Acted as a bridge between programmers and designers to align project goals",
+      "Managed the asset pipeline for art and gameplay assets",
+      "Organized regular team meetings to track progress and iterate on features",
+      "Set up and managed the team booth during the Level Up showcase event",
+    ],
+    tech: ["Unity", "C#", "UI Systems", "3D Modeling", "Blender", "Maya", "Rigging", "Animation"],
+    media: {
+      type: "video",
+      src: "https://www.youtube.com/embed/oqnf0yf46ik?si=XKTD4kMFBLggrZWY",
+      title: "Tandem - Level Up Showcase",
+    },
+    links: [
+      {
+        label: "Watch",
+        href: "https://youtu.be/oqnf0yf46ik?si=XKTD4kMFBLggrZWY",
+        icon: PlayCircle,
+      }
+    ],
+  },
+  {
+    title: "Unreal Gameplay Prototype",
+    subtitle: "Personal Project",
+    blurb:
+      "A personal Unreal Engine project developed over several months to explore gameplay programming, AI behavior, and character systems.",
+    contributions: [
+      "Created the game using Unreal Engine and C++",
+      "Implemented core gameplay systems and character functionality",
+      "Designed and implemented the full UI",
+      "Modeled, textured, and rigged character meshes",
+      "Implemented animation logic and character animation systems",
+      "Developed AI behavior including navigation and pathfinding",
+      "Managed the asset pipeline and project structure",
+    ],
+    tech: ["Unreal Engine", "C++", "Gameplay Systems", "AI", "Navigation", "UI"],
+    media: {
+      type: "youtube",
+      src: "https://www.youtube.com/embed/FSdOHlq7Gus",
+      title: "Unreal Gameplay Prototype",
+    },
+    links: [
+      {
+        label: "Watch video",
+        href: "https://www.youtube.com/watch?v=FSdOHlq7Gus",
+        icon: PlayCircle,
+      },
+    ],
+  }
 ];
 
 const skills = [
@@ -219,8 +276,8 @@ export default function Portfolio() {
             </div>
 
             <h1 className="mt-5 text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
-              I build gameplay systems that ship —
-              <span className="text-neutral-300"> from live mobile to Unreal installations.</span>
+              From prototype to production —
+              <span className="text-neutral-300"> I build gameplay that ships.</span>
             </h1>
 
             <p className="mt-5 text-base leading-relaxed text-neutral-200 sm:text-lg">
