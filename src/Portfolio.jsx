@@ -170,15 +170,15 @@ const projects = [
       "Developed AI behavior including navigation and pathfinding",
       "Managed the asset pipeline and project structure",
     ],
-    tech: ["Unreal Engine", "C++", "Gameplay Systems", "AI", "Navigation", "UI"],
+    tech: ["Unreal Engine", "C++", "Blender", "Gameplay Systems", "AI", "Navigation", "UI"],
     media: {
-      type: "youtube",
+      type: "video",
       src: "https://www.youtube.com/embed/FSdOHlq7Gus",
       title: "Unreal Gameplay Prototype",
     },
     links: [
       {
-        label: "Watch video",
+        label: "Watch",
         href: "https://www.youtube.com/watch?v=FSdOHlq7Gus",
         icon: PlayCircle,
       },
