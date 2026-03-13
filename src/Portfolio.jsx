@@ -50,6 +50,11 @@ const projects = [
         href: "https://player.vimeo.com/video/830586957",
         icon: PlayCircle,
       },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/ca/app/weirdwood-manor-2/id1536158018",
+        icon: ExternalLink,
+      },
     ],
   },
   {
@@ -75,6 +80,16 @@ const projects = [
         label: "Watch",
         href: "https://youtu.be/xnsjU508yt0",
         icon: PlayCircle,
+      },
+      {
+        label: "App Store",
+        href: "https://apps.apple.com/us/app/pch-real-prizes-fun-games/id1472050293",
+        icon: ExternalLink,
+      },
+      {
+        label: "Google Play",
+        href: "https://play.google.com/store/apps/details?id=com.pch.pchworld&pcampaignid=web_share",
+        icon: ExternalLink,
       },
     ],
   },
